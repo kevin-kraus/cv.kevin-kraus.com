@@ -1,8 +1,8 @@
 import React from 'react';
 import './i18n/i18n'
 import './App.css';
-import {JobComponent} from "./components/Job/Job";
 import i18next from "i18next";
+import {JobArray} from "./components/JobArray/JobArray";
 
 function App() {
     const switchLanguage = () => {
@@ -15,7 +15,7 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <JobComponent/>
+                <JobArray />
                 <button onClick={switchLanguage}>SWITCH</button>
             </header>
         </div>

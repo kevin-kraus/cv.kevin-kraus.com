@@ -1,0 +1,66 @@
+.jobContainer {
+  display: grid;
+  width: 80vw;
+  height: 20vh;
+
+  // CSS GRID
+  grid-template-columns: 20vh auto 20%;
+  grid-column-gap: 15px;
+  grid-template-rows: 30% 15% 45%;
+  grid-row-gap: 10px;
+
+  align-items: center;
+  border: 1px solid white;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+
+  .jobCompanyName {
+    text-align: start;
+    align-self: start;
+    font-size: 16px;
+    grid-row: 2;
+    grid-column: 2;
+  }
+
+  .jobCompanyAddress{
+    font-size: 14px;
+  }
+
+  .jobTimeRange {
+    font-size: 14px;
+    grid-column: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .jobTitle {
+    text-align: start;
+    font-size: 24px;
+    font-weight: bold;
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .jobDescription {
+    text-align: start;
+    white-space: pre-line;
+    font-size: 14px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    width: 100%;
+    grid-row: 3;
+  }
+
+  .jobImage {
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 100%;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+}
