@@ -21,6 +21,7 @@
         "CURRENT": false,
         "DESCRIPTION": "Description"
       }
-    ]
+    ],
+    "UNTIL_NOW": "today"
   }
 }

@@ -21,6 +21,7 @@
                 "CURRENT": false,
                 "DESCRIPTION": "Tätigkeiten"
             }
-        ]
+        ],
+        "UNTIL_NOW": "heute"
     }
 }
