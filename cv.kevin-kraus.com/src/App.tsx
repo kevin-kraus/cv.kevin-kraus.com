@@ -1,26 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
+import './i18n/i18n'
 import './App.css';
+import {JobComponent} from "./components/Job/Job";
+import i18next from "i18next";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const switchLanguage = () => {
+        if (i18next.language === 'de') {
+            i18next.changeLanguage('en')
+        } else {
+            i18next.changeLanguage('de')
+        }
+    };
+    return (
+        <div className="App">
+            <header className="App-header">
+                <JobComponent/>
+                <button onClick={switchLanguage}>SWITCH</button>
+            </header>
+        </div>
+    );
 }
 
 export default App;

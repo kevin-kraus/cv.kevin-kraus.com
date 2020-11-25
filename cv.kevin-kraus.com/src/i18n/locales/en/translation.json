@@ -1,0 +1,26 @@
+{
+  "translation": {
+    "Jobs": [
+      {
+        "COMPANY_NAME": "Interhyp AG",
+        "COMPANY_ZIP": 80807,
+        "COMPANY_CITY": "Munich",
+        "JOB_TITLE": "Apprenticeship Software Development",
+        "FROM": "09/2018",
+        "UNTIL": "09/2021",
+        "CURRENT": true,
+        "DESCRIPTION": "Description"
+      },
+      {
+        "COMPANY_NAME": "wee AG",
+        "COMPANY_ZIP": 80807,
+        "COMPANY_CITY": "Munich",
+        "JOB_TITLE": "Sales Support Agent",
+        "FROM": "09/2017",
+        "UNTIL": "09/2018",
+        "CURRENT": false,
+        "DESCRIPTION": "Description"
+      }
+    ]
+  }
+}

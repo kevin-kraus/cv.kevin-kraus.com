@@ -1,0 +1,26 @@
+{
+    "translation": {
+        "Jobs": [
+            {
+                "COMPANY_NAME": "Interhyp AG",
+                "COMPANY_ZIP": 80807,
+                "COMPANY_CITY": "München",
+                "JOB_TITLE": "Auszubildender Fachinformatiker für Anwendungsentwicklung",
+                "FROM": "09/2018",
+                "UNTIL": "09/2021",
+                "CURRENT": true,
+                "DESCRIPTION": "Tätigkeiten"
+            },
+            {
+                "COMPANY_NAME": "wee AG",
+                "COMPANY_ZIP": 80807,
+                "COMPANY_CITY": "München",
+                "JOB_TITLE": "Sales Support Agent",
+                "FROM": "09/2017",
+                "UNTIL": "09/2018",
+                "CURRENT": false,
+                "DESCRIPTION": "Tätigkeiten"
+            }
+        ]
+    }
+}
