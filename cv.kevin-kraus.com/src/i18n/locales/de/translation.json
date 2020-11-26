@@ -26,6 +26,16 @@
         ],
         "Education": [
             {
+                "SCHOOL_CATEGORY": "Berufsschule",
+                "SCHOOL_NAME": "Städt. Berufsschule für Informationstechnik",
+                "SCHOOL_QUALIFICATION": "Berufsausbildung",
+                "SCHOOL_ZIP": 80992,
+                "SCHOOL_CITY": "München",
+                "SCHOOL_FROM": "09/2018",
+                "SCHOOL_UNTIL": "07/2021",
+                "SCHOOL_CURRENT": true
+            },
+            {
                 "SCHOOL_CATEGORY": "Fachoberschule für Wirtschaft und Verwaltung",
                 "SCHOOL_NAME": "Städt. Robert-Bosch-Fachoberschule",
                 "SCHOOL_QUALIFICATION": null,
