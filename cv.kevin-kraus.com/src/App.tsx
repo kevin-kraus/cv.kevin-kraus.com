@@ -2,7 +2,7 @@ import React from 'react';
 import './i18n/i18n'
 import './App.css';
 import i18next from "i18next";
-import {JobArray} from "./components/JobArray/JobArray";
+import {SchoolArray} from "./components/SchoolArray/SchoolArray";
 
 function App() {
     const switchLanguage = () => {
@@ -15,7 +15,7 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <JobArray />
+                <SchoolArray />
                 <button onClick={switchLanguage}>SWITCH</button>
             </header>
         </div>

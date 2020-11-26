@@ -24,6 +24,70 @@
                 "DESCRIPTION": "» Bereitstellen von komplex ausgewerteten Incentive-Ergebnissen\n» Unterstützung des Vertriebs und Kunden bei Problemstellungen\n» Konzeptionierung, Testing und Release verschiedener interner IT Funktionen oder Tools\n» MySQL-Abfragen\n» Erstellen von Statistiken"
             }
         ],
-        "UNTIL_NOW": "heute"
+        "Education": [
+            {
+                "SCHOOL_CATEGORY": "Fachoberschule für Wirtschaft und Verwaltung",
+                "SCHOOL_NAME": "Städt. Robert-Bosch-Fachoberschule",
+                "SCHOOL_QUALIFICATION": null,
+                "SCHOOL_ZIP": 80933,
+                "SCHOOL_CITY": "München",
+                "SCHOOL_FROM": "09/2016",
+                "SCHOOL_UNTIL": "07/2017",
+                "SCHOOL_CURRENT": false
+            },
+            {
+                "SCHOOL_CATEGORY": "Mittelschule",
+                "SCHOOL_NAME": "Mittelschule an der Implerstraße",
+                "SCHOOL_QUALIFICATION": "Mittlere Reife",
+                "SCHOOL_ZIP": 81371,
+                "SCHOOL_CITY": "München",
+                "SCHOOL_FROM": "09/2015",
+                "SCHOOL_UNTIL": "07/2016",
+                "SCHOOL_CURRENT": false
+            },
+            {
+                "SCHOOL_CATEGORY": "Mittelschule",
+                "SCHOOL_NAME": "Mittelschule am Gotzinger Platz",
+                "SCHOOL_QUALIFICATION": "qualifizierender Mittelschulabschluss",
+                "SCHOOL_ZIP": 81371,
+                "SCHOOL_CITY": "München",
+                "SCHOOL_FROM": "02/2015",
+                "SCHOOL_UNTIL": "07/2015",
+                "SCHOOL_CURRENT": false
+            },
+            {
+                "SCHOOL_CATEGORY": "Realschule",
+                "SCHOOL_NAME": "Maria-Probst-Realschule",
+                "SCHOOL_QUALIFICATION": null,
+                "SCHOOL_ZIP": 81371,
+                "SCHOOL_CITY": "München",
+                "SCHOOL_FROM": "09/2014",
+                "SCHOOL_UNTIL": "02/2015",
+                "SCHOOL_CURRENT": false
+            },
+            {
+                "SCHOOL_CATEGORY": "Naturwissenschaftl. -technolog. Gymnasium",
+                "SCHOOL_NAME": "Klenze-Gymnasium",
+                "SCHOOL_QUALIFICATION": null,
+                "SCHOOL_ZIP": 81371,
+                "SCHOOL_CITY": "München",
+                "SCHOOL_FROM": "09/2010",
+                "SCHOOL_UNTIL": "07/2014",
+                "SCHOOL_CURRENT": false
+            },
+            {
+                "SCHOOL_CATEGORY": "Grundschule",
+                "SCHOOL_NAME": "Grundschule am Gotzinger Platz",
+                "SCHOOL_QUALIFICATION": "Grundschulabschluss",
+                "SCHOOL_ZIP": 81371,
+                "SCHOOL_CITY": "München",
+                "SCHOOL_FROM": "09/2006",
+                "SCHOOL_UNTIL": "07/2010",
+                "SCHOOL_CURRENT": false
+            }
+        ],
+
+        "UNTIL_NOW": "heute",
+        "NO_GRADUATION": "ohne Abschluss"
     }
 }

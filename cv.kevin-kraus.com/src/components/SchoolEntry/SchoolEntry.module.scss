@@ -1,0 +1,36 @@
+.schoolEntryContainer {
+  display: grid;
+  width: 80vw;
+  grid-template-columns: 10% 70% 20%;
+  align-items: center;
+  height: auto;
+  border: solid 1px white;
+  border-radius: 10px;
+  margin-bottom: 15px;
+
+  .schoolEntryLogo {
+    grid-column: 1;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .schoolEntrySchoolName {
+    font-weight: bold;
+    font-size: 24px;
+    grid-column: 2;
+  }
+
+  .schoolEntryFromUntil {
+    font-size: 16px;
+    grid-column: 3;
+  }
+
+  .schoolEntryDetails {
+    font-size: 14px;
+    align-self: start;
+    .schoolEntryAddress {
+      font-weight: lighter;
+    }
+  }
+
+}
